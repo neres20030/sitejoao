@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(./assets/bg-mobile-light.jpg) no-repeat center center fixed; /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra toda a tela */
+}
+header {
+    background: url(./assets/bg-mobile-light.jpg);
+    padding: 20px 0;
+    text-align: center;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    color: #0c0b0b;
+    margin: 0 5px;
+    text-decoration: none;
+    padding: 20px;
+
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: url(./assets/bg-mobile-light.jpg); /* Fundo branco semi-transparente */
+ 
+    padding: 20px; /* Padding para separar o conteúdo das bordas */
+}
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #ffffff; /* Se preferir, mantenha o fundo branco */
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: url(./assets/bg-mobile-light.jpg); /* Adicionando transparência ao fundo do rodapé */
+    color: #050505;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
